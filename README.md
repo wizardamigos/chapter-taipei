@@ -1,3 +1,4 @@
 # taipei-codecamp
 
-[Shared Hack.md document about planning of the event](https://hackmd.io/s/rkjBL-mGb)
+* [Shared Hack.md document](https://hackmd.io/s/rkjBL-mGb) about planning of the event
+* [Landing page](https://wizardamigos-codecamp2018.herokuapp.com/landingPage)
