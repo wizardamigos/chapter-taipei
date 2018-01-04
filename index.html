@@ -22,14 +22,32 @@
         width: 100%;
         height: 100%;
       }
+      .input {
+        width: 100%;
+      }
+      .address {
+        width: 400px;
+      }
     </style>
   </head>
   <body>
     <h1><a href="https://www.facebook.com/events/183899712176979/">WizardAmigos CodeCamp Taipei</a></h1>
-    <div class="input"><input value="https://wizardamigos-codecamp2018.herokuapp.com/landingPage" /></div><button> go </button></div>
+    <div class="input">
+      <input class="address" value="https://wizardamigos-codecamp2018.herokuapp.com/landingPage" />
+      <button> go </button>
+    </div>
     <div class="content">
       <iframe src="https://wizardamigos-codecamp2018.herokuapp.com/landingPage"></iframe>
       <iframe src="https://gitter.im/wizardamigosinstitute/program/~embed"></iframe>
     </div>
+    <script>
+      const address = document.querySelector('.address')
+      const button = document.querySelector('.input > button')
+      var browser = document.querySelector('.content').children[0]
+      button.addEventListener('click', function (event) {
+        var goto = adress.value
+        browser.setAttribute('src', goto)
+      })
+    </script>
   </body>
 </html>
