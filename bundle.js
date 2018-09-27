@@ -27,7 +27,7 @@ var fontL   = fontXXS*3
 var fontXL  = fontXXS*3.8
 var fontXXL = fontXXS*6
 var head = `
-  <title> WizardAmigos Chapter - Berlin </title>
+  <title> WizardAmigos Chapter - Taipei </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <style>
     html          {
@@ -119,14 +119,14 @@ var head = `
 var body = `
   <div class="header">
   <a href="http://wizardamigos.com/"><img class="logo" src="assets/wizard3.png"></a>
-  <h1 class="title">WizardAmigos Chapter: <span>Berlin</span></h1>
+  <h1 class="title">WizardAmigos Chapter: <span>Taipei</span></h1>
   </div>
   <div class="content">
-    <iframe id="typeform-full" width="100%" height="100%" frameborder="0" src="https://ninabreznik.typeform.com/to/RnddyU"></iframe>
+    <iframe id="typeform-full" width="100%" height="100%" frameborder="0" src="https://wizardamigos-codecamp2018.herokuapp.com/landingPage"></iframe>
     <iframe class="iframe" src="https://gitter.im/wizardamigosinstitute/program/~embed"></iframe>
   </div>
   <h3 class="webring"> other chapters </h3>
-  <ul class="chapter-list"><li class="chapter"><a href="http://wizardamigos.com/chapter-taipei/">Taipei</a></li></ul>
+  <ul class="chapter-list"><li class="chapter"><a href="http://wizardamigos.com/chapter-berlin/">Berlin</a></li></ul>
   <script type="text/javascript" src="https://embed.typeform.com/embed.js"></script>
 `
 document.head.innerHTML = head
