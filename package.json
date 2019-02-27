@@ -1,10 +1,10 @@
 {
+  "private": true,
   "name": "chapter-taipei",
   "version": "0.0.0",
   "description": "wizardamigos chapter taipei",
-  "private": true,
   "scripts": {
-    "start": "budo index.js:bundle.js --open --live --ssl",
+    "start": "budo index.js:bundle.js --dir . --title $npm_package_name --force-default-index --open --live --ssl",
     "build": "browserify index.js > bundle.js"
   },
   "repository": {
@@ -22,6 +22,9 @@
   },
   "homepage": "https://github.com/wizardamigos/chapter-taipei#readme",
   "devDependencies": {
-    "budo": "^11.3.2"
+    "budo": "^11.6.1"
+  },
+  "dependencies": {
+    "chapter-page": "0.0.0"
   }
 }
